@@ -1,0 +1,97 @@
+/* Reset de estilos y estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #858585;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #077929cb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #070404;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos de secciones */
+.seccion-1, .seccion-2 {
+    padding: 40px 0;
+}
+
+.acercade {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.acercade h2 {
+    font-family: 'Madimi One', cursive;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.acercade p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.acercade-imagen img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    color: #666;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
